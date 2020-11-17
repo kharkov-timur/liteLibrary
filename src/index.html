@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Library</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+<!--  <button class="btn btn-primary m20" id="first">Fade out first text</button>-->
+<!--  <button class="btn btn-dark m20" data-count="second">Fade out second text</button>-->
+<!--  <button class="btn btn-warning m20">Fade out all texts</button>-->
+
+  <!-- Card -->
+  <div class="goods d-flex f-space-around">
+    <div class="card">
+      <img alt="photo" class="card-img"
+           src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340">
+      <div class="card-body">
+        <div class="card-title">Card title</div>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae consectetur consequatur consequuntur
+          culpa cumque doloremque exercitationem fugiat inventore minus modi, natus nihil nostrum perspiciatis placeat
+        </p>
+        <a class="btn btn-primary" href="" data-toggle="modal" data-target="#exampleModal">Link to</a>
+      </div>
+    </div>
+    <div class="card">
+      <img alt="photo" class="card-img"
+           src="https://i.pinimg.com/originals/f4/d0/d9/f4d0d90445156882bf0eb60843ae1faf.jpg">
+      <div class="card-body">
+        <div class="card-title">Card title #2</div>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae consectetur consequatur consequuntur
+          culpa cumque doloremque exercitationem fugiat inventore minus modi, natus nihil nostrum perspiciatis placeat
+        </p>
+        <a class="btn btn-primary" href="" data-toggle="modal" data-target="#exampleModal2">Link to</a>
+      </div>
+    </div>
+  </div>
+
+  <!--  Modal -->
+  <div class="modal" id="exampleModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button class="close" data-close>
+          <span>&times;</span>
+        </button>
+        <div class="modal-header">
+          <div class="modal-title">
+            Modal title
+          </div>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae consectetur consequatur consequuntur
+          culpa cumque doloremque exercitationem fugiat inventore minus modi, natus nihil nostrum perspiciatis placeat
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-danger" data-close>Close</button>
+          <button class="btn btn-success">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="exampleModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button class="close" data-close>
+          <span>&times;</span>
+        </button>
+        <div class="modal-header">
+          <div class="modal-title">
+            Modal title #2
+          </div>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae consectetur consequatur consequuntur
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-danger" data-close>Close</button>
+          <button class="btn btn-success">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src='script.js'></script>
+</body>
+</html>
