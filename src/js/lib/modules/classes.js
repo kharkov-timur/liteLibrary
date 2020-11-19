@@ -16,7 +16,7 @@ $.prototype.removeClass = function (...classNames) {
   return this;
 };
 
-// Метод переключения классов. На вход принимает клас
+// Метод переключения классов. На вход принимает класс
 $.prototype.toggleClass = function (className) {
   for (let i = 0; i < this.length; i++) {
     this[i].classList.toggle(className);

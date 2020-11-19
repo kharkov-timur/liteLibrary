@@ -1,6 +1,6 @@
 import $ from '../core';
 
-// Method to add handlers
+// Add handler on element
 $.prototype.on = function (eventName, callback) {
   if (!eventName || !callback) {
     return this;
@@ -12,6 +12,7 @@ $.prototype.on = function (eventName, callback) {
   return this;
 };
 
+// Remove handler on element
 $.prototype.off = function (eventName, callback) {
   if (!eventName || !callback) {
     return this;
@@ -23,6 +24,7 @@ $.prototype.off = function (eventName, callback) {
   return this;
 };
 
+// Add handler click on element
 $.prototype.click = function (handler) {
   for (let i = 0; i < this.length; i++) {
     if (handler) {

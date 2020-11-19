@@ -10,9 +10,9 @@
 <body>
 
 <div class="container">
-<!--  <button class="btn btn-primary m20" id="first">Fade out first text</button>-->
-<!--  <button class="btn btn-dark m20" data-count="second">Fade out second text</button>-->
-<!--  <button class="btn btn-warning m20">Fade out all texts</button>-->
+  <!--  <button class="btn btn-primary m20" id="first">Fade out first text</button>-->
+  <!--  <button class="btn btn-dark m20" data-count="second">Fade out second text</button>-->
+  <!--  <button class="btn btn-warning m20">Fade out all texts</button>-->
 
   <!-- Card -->
   <div class="goods d-flex f-space-around">
@@ -25,7 +25,7 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae consectetur consequatur consequuntur
           culpa cumque doloremque exercitationem fugiat inventore minus modi, natus nihil nostrum perspiciatis placeat
         </p>
-        <a class="btn btn-primary" href="" data-toggle="modal" data-target="#exampleModal">Link to</a>
+        <a class="btn btn-primary" data-target="#exampleModal" data-toggle="modal" href="" id="trigger">Link to</a>
       </div>
     </div>
     <div class="card">
@@ -37,34 +37,34 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae consectetur consequatur consequuntur
           culpa cumque doloremque exercitationem fugiat inventore minus modi, natus nihil nostrum perspiciatis placeat
         </p>
-        <a class="btn btn-primary" href="" data-toggle="modal" data-target="#exampleModal2">Link to</a>
+        <a class="btn btn-primary" data-target="#exampleModal2" data-toggle="modal" href="">Link to</a>
       </div>
     </div>
   </div>
 
   <!--  Modal -->
-  <div class="modal" id="exampleModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <button class="close" data-close>
-          <span>&times;</span>
-        </button>
-        <div class="modal-header">
-          <div class="modal-title">
-            Modal title
-          </div>
-        </div>
-        <div class="modal-body">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae consectetur consequatur consequuntur
-          culpa cumque doloremque exercitationem fugiat inventore minus modi, natus nihil nostrum perspiciatis placeat
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-danger" data-close>Close</button>
-          <button class="btn btn-success">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!--  <div class="modal" id="exampleModal">-->
+  <!--    <div class="modal-dialog">-->
+  <!--      <div class="modal-content">-->
+  <!--        <button class="close" data-close>-->
+  <!--          <span>&times;</span>-->
+  <!--        </button>-->
+  <!--        <div class="modal-header">-->
+  <!--          <div class="modal-title">-->
+  <!--            Modal title-->
+  <!--          </div>-->
+  <!--        </div>-->
+  <!--        <div class="modal-body">-->
+  <!--          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae consectetur consequatur consequuntur-->
+  <!--          culpa cumque doloremque exercitationem fugiat inventore minus modi, natus nihil nostrum perspiciatis placeat-->
+  <!--        </div>-->
+  <!--        <div class="modal-footer">-->
+  <!--          <button class="btn btn-danger" data-close>Close</button>-->
+  <!--          <button class="btn btn-success">Save changes</button>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </div>-->
 
   <div class="modal" id="exampleModal2">
     <div class="modal-dialog">
@@ -78,12 +78,78 @@
           </div>
         </div>
         <div class="modal-body">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae consectetur consequatur consequuntur
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur cum facilis ipsam minima
+          nobis similique suscipit vero. Accusantium architecto aut beatae cupiditate deleniti esse eum expedita
+          laudantium, modi natus neque odio optio quasi tempora tempore, temporibus totam unde. At.
         </div>
         <div class="modal-footer">
           <button class="btn btn-danger" data-close>Close</button>
           <button class="btn btn-success">Save changes</button>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  Tabs -->
+  <div class="tab mt-20 block-center">
+    <div class="tab-panel" data-tabpanel>
+      <div class="tab-item">Content 1</div>
+      <div class="tab-item">Content 2</div>
+      <div class="tab-item">Content 3</div>
+    </div>
+    <div class="tab-content tab-content--active">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet aspernatur aut consequuntur cumque dolor
+      esse est explicabo fugit harum id, incidunt minus nam nobis numquam obcaecati pariatur porro possimus quaerat quam
+      quisquam quod rerum sed totam unde veniam voluptatibus!
+      <br> <br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur cum facilis ipsam minima nobis
+      similique suscipit vero. Accusantium architecto aut beatae cupiditate deleniti esse eum expedita laudantium, modi
+      natus neque odio optio quasi tempora tempore, temporibus totam unde. At.
+    </div>
+    <div class="tab-content">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet aspernatur aut consequuntur cumque dolor
+      esse est explicabo fugit harum id, incidunt minus nam nobis numquam obcaecati pariatur porro possimus quaerat quam
+      quisquam quod rerum sed totam unde veniam voluptatibus!
+      <br> <br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur cum facilis ipsam minima nobis
+      similique suscipit vero. Accusantium architecto aut beatae cupiditate deleniti esse eum expedita laudantium, modi
+      natus neque odio optio quasi tempora tempore, temporibus totam unde. At.
+      <br> <br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur cum facilis ipsam minima nobis
+      similique suscipit vero. Accusantium architecto aut beatae cupiditate deleniti esse eum expedita laudantium, modi
+      natus neque odio optio quasi tempora tempore, temporibus totam unde. At.
+    </div>
+    <div class="tab-content">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet aspernatur aut consequuntur cumque dolor
+      esse est explicabo fugit harum id, incidunt minus nam nobis numquam obcaecati pariatur porro possimus quaerat quam
+      quisquam quod rerum sed totam unde veniam voluptatibus!
+    </div>
+
+  </div>
+
+  <!--  Accordion -->
+
+  <div class="accordion mt-20 block-center">
+    <div class="accordion-head">
+      <span>Collapse first element</span>
+    </div>
+    <div class="accordion-content">
+      <div class="accordion-inner">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur deleniti eligendi, fugit maxime molestiae
+        nulla sequi sunt veniam. Aliquid blanditiis distinctio dolorem eos exercitationem incidunt, magnam
+        necessitatibus nemo nisi officiis quam quasi, quibusdam quo sapiente suscipit totam ut vel voluptates.
+      </div>
+    </div>
+  </div>
+  <div class="accordion mt-20 block-center">
+    <div class="accordion-head">
+      <span>Collapse second element</span>
+    </div>
+    <div class="accordion-content">
+      <div class="accordion-inner">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur deleniti eligendi, fugit maxime molestiae
+        nulla sequi sunt veniam. Aliquid blanditiis distinctio dolorem eos exercitationem incidunt, magnam
+        necessitatibus nemo nisi officiis quam quasi, quibusdam quo sapiente suscipit totam ut vel voluptates.
       </div>
     </div>
   </div>
