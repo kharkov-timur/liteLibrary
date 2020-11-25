@@ -1,5 +1,6 @@
 import $ from '../core';
 
+// Change HTML element
 $.prototype.html = function (content) {
   for (let i = 0; i < this.length; i++) {
     if (content) {
@@ -11,6 +12,7 @@ $.prototype.html = function (content) {
   return this;
 };
 
+// Select element self number
 $.prototype.eq = function (i) {
   const swap = this[i];
   const objLength = Object.keys(this).length;
@@ -24,6 +26,7 @@ $.prototype.eq = function (i) {
   return this;
 };
 
+// Find element to index
 $.prototype.index = function () {
   const parent = this[0].parentNode;
   const childs = [...parent.children];
@@ -35,6 +38,7 @@ $.prototype.index = function () {
   return childs.findIndex(findMyIndex);
 };
 
+// Find element
 $.prototype.find = function (selector) {
   let numberOfItems = 0;
   let counter = 0;
@@ -65,6 +69,7 @@ $.prototype.find = function (selector) {
   return this;
 };
 
+// Find element what closest this selector
 $.prototype.closest = function (selector) {
   let counter = 0;
 
@@ -81,6 +86,7 @@ $.prototype.closest = function (selector) {
   return this;
 };
 
+// Find element siblings
 $.prototype.siblings = function () {
   let numberOfItems = 0;
   let counter = 0;
